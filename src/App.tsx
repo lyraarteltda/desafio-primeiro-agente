@@ -100,6 +100,10 @@ function Hero() {
           <p className="text-xs text-muted-foreground mt-4">
             7 dias de garantia incondicional &middot; 3x R$37 no cartão &middot; PIX à vista
           </p>
+          <p className="text-[11px] text-muted-foreground/70 mt-3 max-w-md mx-auto">
+            Ao clicar, você concorda em receber mensagens da Maestros da IA e aceita nossa{' '}
+            <a href="https://politica.maestrosdaia.com/" className="underline hover:text-muted-foreground transition-colors">Política de Privacidade</a>.
+          </p>
         </FadeIn>
       </div>
     </section>
@@ -391,6 +395,10 @@ function Pricing() {
               <CTAButton size="lg" className="w-full text-center block">
                 QUERO CONSTRUIR MEU AGENTE
               </CTAButton>
+              <p className="text-[11px] text-muted-foreground/70 mt-4 text-center">
+                Ao clicar, você concorda em receber mensagens da Maestros da IA e aceita nossa{' '}
+                <a href="https://politica.maestrosdaia.com/" className="underline hover:text-muted-foreground transition-colors">Política de Privacidade</a>.
+              </p>
               <div className="mt-6 flex flex-wrap justify-center gap-x-4 gap-y-2 text-xs text-muted-foreground">
                 <span className="flex items-center gap-1"><CheckCircle className="w-3.5 h-3.5 text-green" /> 7 dias de garantia incondicional</span>
                 <span className="flex items-center gap-1"><CheckCircle className="w-3.5 h-3.5 text-green" /> Acesso imediato</span>
@@ -477,6 +485,10 @@ function FinalCTA() {
           </h2>
           <p className="text-muted mb-8">Ou daqui a 5 dias, você ainda vai estar assistindo tutorial de prompt.</p>
           <CTAButton size="lg">QUERO MEU PRIMEIRO AGENTE &rarr; R$97</CTAButton>
+          <p className="text-[11px] text-muted-foreground/70 mt-4 max-w-md mx-auto">
+            Ao clicar, você concorda em receber mensagens da Maestros da IA e aceita nossa{' '}
+            <a href="https://politica.maestrosdaia.com/" className="underline hover:text-muted-foreground transition-colors">Política de Privacidade</a>.
+          </p>
         </FadeIn>
       </div>
     </section>
@@ -488,11 +500,12 @@ function Footer() {
     <footer className="border-t border-card-border py-8">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 text-center">
         <p className="text-xs text-muted-foreground mb-2">
-          Maestria Academy Ltda &middot; CNPJ sob sigilo &middot; Todos os direitos reservados
+          Maestria Academy Ltda &middot; CNPJ 62.434.578/0001-03 &middot; Todos os direitos reservados
         </p>
-        <p className="text-xs text-muted-foreground">
+        <p className="text-xs text-muted-foreground mb-2">
           Este produto não garante resultados. Resultados dependem do empenho individual de cada aluno.
         </p>
+        <a href="https://politica.maestrosdaia.com/" className="text-xs text-muted-foreground underline hover:text-foreground transition-colors">Política de Privacidade</a>
       </div>
     </footer>
   )
